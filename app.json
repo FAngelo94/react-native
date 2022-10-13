@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ReactNativeApp",
-    "slug": "ReactNativeApp",
+    "name": "ReactNative2",
+    "slug": "ReactNative2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fangelo94.ReactNative2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.fangelo94.ReactNative2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c41dfc21-4a8c-4a47-9ca7-e111dfa7d51e"
+      }
     }
   }
 }
